@@ -9,7 +9,7 @@ inteded for use with the very least 14MB of RAM,
 
 1MB of Video RAM (for 16bit color dept in X Windows),
 
-# Compileing
+## Compiling and using for distribution's
 depending on the arch i only officaly reccomend going like this:
 
 80386: uClibc-ng, SysVinit
