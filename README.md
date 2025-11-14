@@ -5,7 +5,7 @@ this one however has a diffrent target in mind
 
 and that's 80386 and other RAM limited machine types
 
-inteded for use with the very least 12MB of RAM,
+Use with at the very least 12MB of RAM,
 
 1MB of Video RAM (for 16bit color dept in X Windows),
 
