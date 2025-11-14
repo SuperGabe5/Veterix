@@ -37,3 +37,8 @@ depending on the arch i only officaly reccomend going like this:
 80386: uClibc-ng, SysVinit
 
 80486 and MIPS: musl, OpenRC
+
+# Other Notices
+
+> [!WARNING]
+> I DO NOT HAVE A CRT DISPLAY TO TEST WITH SO I ASSUME THAT YOUR USING AN LCD
