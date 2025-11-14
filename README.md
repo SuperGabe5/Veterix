@@ -9,7 +9,13 @@ and that's 80386 and other RAM limited machine types
 
 Use with at the very least 12MB of RAM,
 
-1MB of Video RAM (for 16bit color dept in X Windows),
+1MB of Video RAM (for 16bit color mode in X Windows),
+
+FLDE (my desktop environment disigned for these systems)
+
+uses IceWM
+
+if your system has less than that specs than you will need use basic MWM instead
 
 ### Compiling and using for distribution's
 depending on the arch i only officaly reccomend going like this:
