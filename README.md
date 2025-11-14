@@ -1,6 +1,8 @@
 # Veterix
 Yet another fork of the Linux kernel by me
 
+Based on Linux 2.4.37.11
+
 this one however has a diffrent target in mind
 
 and that's 80386 and other RAM limited machine types
