@@ -40,5 +40,16 @@ depending on the arch i only officaly reccomend going like this:
 
 # Other Notices
 
+> [!NOTE]
+>
+> This is assuming your using my fork of XFree86 3.3.6 as newer X versions used too much RAM
+>
+> So I am going to fork XFree86 3.3.6 and also try to patch that
+
+> [!CAUTION]
+> BEING A FORK OF LINUX 2.4.37.11,
+>
+> THERE ARE A LOT OF SECURITY HOLES RIGHT NOW I NEED TO FIGURE OUT HOW TO PATCH THEM
+
 > [!WARNING]
 > I DO NOT HAVE A CRT DISPLAY TO TEST WITH SO I ASSUME THAT YOUR USING AN LCD
