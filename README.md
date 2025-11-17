@@ -53,3 +53,7 @@ depending on the arch i only officaly reccomend going like this:
 
 > [!WARNING]
 > I DO NOT HAVE A CRT DISPLAY TO TEST WITH SO I ASSUME THAT YOUR USING AN LCD
+>
+> Also I'm about to rebase this on Linux 1.2 because I Found it's 64bit support and in this project it's unnecessary as this is meant to have 386/486 clean
+>
+> Also that kernel version is more likely to be compatible with XFree86 3.3.6 (also forking that to make my own maintained version for this limited hardware)
