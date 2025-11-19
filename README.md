@@ -15,7 +15,7 @@ You need 16MB RAM,
 
 JDE (my desktop environment disigned for these systems)
 
-uses IceWM
+uses JWM
 
 if your system has less than that specs than you will need use basic ctwm instead
 
