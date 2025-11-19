@@ -7,19 +7,19 @@ this one however has a diffrent target in mind
 
 and that's 80386 and other RAM limited machine types
 
-Use with at the very least 12MB of RAM (16MB for better results),
+You need 16MB RAM,
 
 2MB of Video RAM (for 16bit color mode in X Windows @ 1024x768),
 
 2GB HDD Storage (if your BIOS can handle it)
 
-FLDE (my desktop environment disigned for these systems)
+JDE (my desktop environment disigned for these systems)
 
 uses IceWM
 
-if your system has less than that specs than you will need use basic fvwm or ctwm instead
+if your system has less than that specs than you will need use basic ctwm instead
 
-only use this if your card does not have enough Video RAM for the main FLDE
+only use this if your card does not have enough Video RAM for the main JDE
 
 true supported minimums
 
@@ -34,9 +34,9 @@ true supported minimums
 ### Compiling and using for distribution's
 depending on the arch i only officaly reccomend going like this:
 
-80386: uClibc-ng, SysVinit
+I only officially support this:
 
-80486 and MIPS: musl, OpenRC
+uClibc-ng, SysVinit
 
 # Other Notices
 
@@ -54,6 +54,8 @@ depending on the arch i only officaly reccomend going like this:
 > [!WARNING]
 > I DO NOT HAVE A CRT DISPLAY TO TEST WITH SO I ASSUME THAT YOUR USING AN LCD
 >
-> Also I'm about to rebase this on Linux 1.2 because I Found it's 64bit support and in this project it's unnecessary as this is meant to have 386/486 clean
+> Also I'm considering rebaseing this on Linux 1.2 because I Found it's 64bit support and in this project it's unnecessary as this is meant to have 386/486 clean
+> 
+> Also the current code base is too big for me to maintain on my own.
 >
 > Also that kernel version is more likely to be compatible with XFree86 3.3.6 (also forking that to make my own maintained version for this limited hardware)
