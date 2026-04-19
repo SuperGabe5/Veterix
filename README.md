@@ -5,7 +5,7 @@ Based on Linux 2.4.37.11
 
 this one however has a diffrent target in mind
 
-and that's 80386 and other RAM limited machine types
+and that's 80486 and other RAM limited machine types
 
 You need 16MB RAM,
 
@@ -23,7 +23,7 @@ only use this if your card does not have enough Video RAM for the main JDE
 
 true supported minimums
 
-12MB RAM
+16MB RAM
 
 768KB* Video RAM (for 256 Color mode @ 1024x768)
 
@@ -36,7 +36,7 @@ depending on the arch i only officaly reccomend going like this:
 
 I only officially support this:
 
-uClibc-ng, SysVinit
+uClibc-ng, s6-init
 
 # Other Notices
 
@@ -52,10 +52,4 @@ uClibc-ng, SysVinit
 > THERE ARE A LOT OF SECURITY HOLES RIGHT NOW THAT NEED PATCHING
 
 > [!WARNING]
-> I DO NOT HAVE A CRT DISPLAY TO TEST WITH SO I ASSUME THAT YOUR USING AN LCD
->
-> Also I'm considering rebaseing this on Linux 1.2 because I Found it's 64bit support and in this project it's unnecessary as this is meant to have 386/486 clean
-> 
-> Also the current code base is too big for me to maintain on my own.
->
-> Also that kernel version is more likely to be compatible with XFree86 3.3.6 (also forking that to make my own maintained version for this limited hardware)
+> I DO NOT HAVE A CRT DISPLAY TO TEST WITH SO I ASSUME THAT YOUR USING AN LCD.
