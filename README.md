@@ -9,6 +9,8 @@ and that's 80486 and other RAM limited machine types
 
 You need 16MB RAM,
 
+You need an FPU (The ability to use Floats)
+
 2MB of Video RAM (for 16bit color mode in X Windows @ 1024x768),
 
 2GB HDD Storage (if your BIOS can handle it)
@@ -30,6 +32,8 @@ true supported minimums
 *unsure about that amount id use 1MB to be safe
 
 504MB HDD Storage
+
+You need an FPU (Float)
 
 ### Compiling and using for distribution's
 depending on the arch i only officaly reccomend going like this:
@@ -53,3 +57,5 @@ uClibc-ng, s6-init
 
 > [!WARNING]
 > I DO NOT HAVE A CRT DISPLAY TO TEST WITH SO I ASSUME THAT YOUR USING AN LCD.
+>
+> IF YOU DON'T HAVE AN FPU THEN YOU MUST USE MY OTHER KERNEL (Linux-80386) THAT'S BASED ON AN EVEN OLDER VERSION BUT SUPPORTS ALL THE WAY DOWN TO 80386 IF YOU HAVE ENOUGH RAM FOR XFree86 3.3.6
